@@ -68,7 +68,7 @@ O projeto consiste em uma aplicação web com frontend em **React** e backend em
 │
 ├── /backend
 │   ├── /controllers    # Lógica das rotas
-│   ├── /services       # Lógica de negócio e integrações
+│   ├── /services       # Lógica de integrações
 │   ├── /routes         # Definição das rotas da API
 │   ├── /middlewares    # Autenticação
 │   ├── server.js       # Inicialização do servidor
