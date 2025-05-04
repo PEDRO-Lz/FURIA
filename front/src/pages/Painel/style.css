@@ -1,0 +1,49 @@
+.painel-furia {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 0.7rem; /* Reduz o tamanho da fonte para 0.7rem */
+    background-color: #121212;
+    border-radius: 12px;
+
+}
+
+h2 {
+    margin-top: 20px; /* Diminui a margem do título */
+    font-size: 1.2rem; /* Diminui o tamanho da fonte do título */
+}
+
+table {
+    width: 450px; /* Reduz a largura da tabela */
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto; /* Centraliza a tabela */
+    margin-right: auto;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 3px; /* Reduz o padding das células */
+    text-align: center;
+    font-size: 0.7rem; /* Diminui o tamanho da fonte nas células */
+}
+
+.logo-time {
+    width: 20px; /* Reduz o tamanho da logo */
+    height: 20px;
+    object-fit: contain;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.7rem; /* Ajusta o tamanho do link */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.proxima-partida p {
+    margin: 3px 0; /* Diminui a margem entre os parágrafos */
+    font-size: 0.85rem; /* Diminui o tamanho da fonte na seção de próxima partida */
+}

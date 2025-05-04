@@ -1,0 +1,11 @@
+.pagina {
+    display: flex;
+}
+
+.chatetabela{
+    display: flex;
+}
+
+.tabela {
+    margin-top: 20px;
+  }

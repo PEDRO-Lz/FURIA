@@ -1,0 +1,123 @@
+/* Ajustes para o container abaixo da live (chat + painel) */
+.bottom-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start; /* Garante alinhamento no topo */
+    padding: 20px;
+  }
+  
+  .twitch-chat {
+    background: #141414;
+    padding: 15px;
+    border-radius: 12px;
+    color: white;
+    height: 320px; /* Aumentei um pouco para acomodar o cabeçalho */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  /* Novo estilo para o cabeçalho do chat */
+  .chat-header {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 10px;
+  }
+  
+  .chat-header h2 {
+    margin: 0 0 5px 0;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .user-info {
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+  
+  .user-info span {
+    color: #1da1f2;
+    font-weight: bold;
+  }
+  
+  .chat-live-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .empty-chat-message {
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .chat-live-message {
+    max-width: 80%;
+    word-wrap: break-word;
+    line-height: 1.4;
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    border-radius: 18px;
+    background-color: #2a2a2a;
+    color: white;
+    font-size: 0.9rem;
+    align-self: flex-start;
+  }
+  
+  .message-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: #1da1f2;
+  }
+  
+  .timestamp {
+    color: #888;
+  }
+  
+  .message-text {
+    word-break: break-word;
+  }
+  
+  .chat-live-input {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .chat-live-input input {
+    flex: 1;
+    margin-right: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #2a2a2a;
+    color: white;
+  }
+  
+  .chat-live-input button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .chat-live-input button:hover {
+    background-color: #45a049;
+  }
+  
