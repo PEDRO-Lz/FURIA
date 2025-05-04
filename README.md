@@ -1,5 +1,7 @@
 # FURIA Fan Experience  —  Chat + Know Your Fan
 
+![Chat com o Bot da FURIA](./front/public/print1.png)
+
 Este repositório é a entrega dos dois desafios propostos pela **FURIA** no processo seletivo:
 
 - 🎯 **Challenge #1 – Experiência Conversacional**
